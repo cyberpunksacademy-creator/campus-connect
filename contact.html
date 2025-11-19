@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Connect with Campus Connect</title>
+        <link rel="icon" href="images/campus connect logo1.jpeg" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header sub-header-image-4">
+            <nav>
+                <a href="index.html"><img src="images/campus connect logo1.jpeg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">INNOVATION</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Connect with Us</h1>
+        </section>
+
+<section class="location">
+    <h1>Our Headquarters Location</h1>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.658252277085!2d35.27552947514801!3d0.5186026994791508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x178103309a48911d%3A0x868b8e0a7b4618e4!2sMusco%20Towers!5e0!3m2!1sen!2ske!4v1700465330335!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <h1>Our Engagement Details</h1>
+            <div>
+                <a class="plain-link" href="https://maps.app.goo.gl/gD87mC1z8g8f5M2N7"><i class="fa fa-map-marker"></i></a>
+                <span>
+                    <h5>Campus Connect Headquarters - Eldoret</h5>
+                    <p><tt>ttMusco Towers, 4th Floor, Oginga Odinga Street, Eldoret, Uasin Gishu County, Kenya</tt></p>
+                </span>
+            </div>
+            <div>
+                <a class="plain-link" href="tel:+254712345678"><i class="fa fa-phone"></i></a>
+                <span>
+                    <h5>+254 785535266 (Innovation Support)</h5>
+                    <p>Connect with our support team, Monday to Friday, 9 am to 5 pm EAT.</p>
+                </span>
+            </div>
+            <div>
+                <a class="plain-link" href="mailto:support@campusconnect.com"><i class="fa fa-envelope-o"></i></a>
+                <span>
+                    <a class="plain-link" href="mailto:support@campusconnect.com">
+                    <h5>support@campusconnect.com</h5>
+                    <p>Email us for general platform and technical support.</p>
+                    </a>
+                </span>
+            </div>
+            <div>
+                <a class="plain-link" href="mailto:partners@campusconnect.com"><i class="fa fa-briefcase"></i></a>
+                <span>
+                    <a class="plain-link" href="mailto:partners@campusconnect.com">
+                    <h5>partners@campusconnect.com</h5>
+                    <p>For innovation partnership and collaboration inquiries.</p>
+                    </a>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <h1>Post your Query or Idea</h1>
+            <form action="https://formspree.io/f/xrgrdkry" id="contact-form" method="POST">
+                <input type="text" name="Name" id="Name" placeholder="Enter your Name" required>
+                <input type="email" name="Email" id="Email" placeholder="Enter your Email" required>
+                <input type="text" name="Subject" id="Subject" placeholder="Inquiry Type (e.g., Partnership, Support, Idea Submission)" required>
+                <textarea rows="8" name="Message" id="Message" placeholder="Tell us about your query, innovation, or partnership idea..." required></textarea>
+                <button type="submit" class="hero-btn red-btn submit-btn">Send Message</button>
+            </form>
+            <div id="status"></div>
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <h4>About Campus Connect</h4>
+    <p>
+        <b>Campus Connect</b> is a dynamic community dedicated to elevating innovations and nurturing entrepreneurship across the entire ecosystem.
+    </p>
+    <div class="icons">
+        <a class="plain-link" href="#"><i class="fa fa-twitter"></i></a>
+        <a class="plain-link" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="plain-link" href="#"><i class="fa fa-instagram"></i></a>
+        <a class="plain-link" href="#"><i class="fa fa-youtube"></i></a>
+    </div>
+    <p>
+        Design by Loyarasoft.org
+        <br>
+        Copyright @ 2025
+            <a class="plain-link icons-blue" href="https://www.linkedin.com/in/devang-baheti/"><i class="fa fa-linkedin"></i></a>
+            <a class="plain-link icons-blue" href="https://github.com/devangbaheti03"><i class="fa fa-github"></i></a>
+            <a class="plain-link icons-blue" href="https://www.instagram.com/devang_baheti/"><i class="fa fa-instagram"></i></a>
+            <a class="plain-link icons-blue" href="mailto:devangb03@gmail.com"><i class="fa fa-at"></i></a>
+    </p>
+</section>
+
+
+<script src="main.js"></script>
+
+<script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
