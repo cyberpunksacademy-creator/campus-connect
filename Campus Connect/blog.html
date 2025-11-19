@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Insights & Community Voice | Campus Connect</title>
+        <link rel="icon" href="images/campus connect logo1.jpeg" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header sub-header-image-3">
+            <nav>
+                <a href="index.html"><img src="images/campus connect logo1.jpeg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">INNOVATE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Innovation Insights & Thought Leadership</h1>
+        </section>
+
+<section class="blog-content">
+    <div class="blog-left">
+        <img src="images/startup pitches.jpeg" alt="Image related to Technology and Future">
+        <h2>The African Tech Startup Landscape: Key Trends for 2025</h2>
+        <p>A deep dive into the emerging sectors, crucial funding metrics, and regional innovation hubs driving economic growth across the continent.</p>
+        <br>
+        <img src="images/Innovation Labs.jpeg " alt="Image related to Mentorship and Growth">
+        <h2>From Idea to Exit: The 5 Phases of Venture Scaling on Campus Connect</h2>
+        <p>Learn how our structured accelerator programs guide innovators through validation, launch, growth, and sustainable scaling.</p>
+        
+        <p>***</p>
+        <h3>Mastering the Pitch: What Investors Really Look for in an MVP</h3>
+        <p>Our experts share tips on crafting a compelling narrative, demonstrating market validation, and avoiding common pitfalls during funding rounds.</p>
+
+
+        <div class="comment-box contact-col">
+            <h3>Share Your Feedback or Contribution</h3>
+            <form action="https://formspree.io/f/xrgrdkry" id="contact-form" method="POST">
+                <input type="text" name="Name" id="Name" placeholder="Enter your Name" required>
+                <input type="email" name="Email" id="Email" placeholder="Enter your Email" required>
+                <input type="text" name="Subject" id="Subject" placeholder="Subject (e.g., Blog Comment, Suggestion, Content Contribution)" required>
+                <textarea rows="8" name="Message" id="Message" placeholder="Type your comment, feedback, or content proposal here..." required></textarea>
+                <button type="submit" class="hero-btn red-btn submit-btn">Send Message</button>
+            </form>
+            <div id="status"></div>
+        </div>
+        <div id="status"></div>
+    </div>
+    <div class="blog-right">
+        <h3>Trending Topics</h3>
+        <div>
+            <span>Fintech Innovation</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Sustainable Tech</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>AI & Machine Learning</span>
+            <span>34</span>
+        </div>
+        <div>
+            <span>Startup Funding</span>
+            <span>12</span>
+        </div>
+        <div>
+            <span>Eldoret Tech Scene</span>
+            <span>8</span>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <h4>About Campus Connect</h4>
+    <p>
+        <b>Campus Connect</b> is a dynamic community dedicated to elevating innovations and nurturing entrepreneurship across the entire ecosystem.
+    </p>
+    <div class="icons">
+        <a class="plain-link" href="#"><i class="fa fa-twitter"></i></a>
+        <a class="plain-link" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="plain-link" href="#"><i class="fa fa-instagram"></i></a>
+        <a class="plain-link" href="#"><i class="fa fa-youtube"></i></a>
+    </div>
+    <p>
+        Design by Loyarasoft.org
+        <br>
+        Copyright @ 2025
+            <a class="plain-link icons-blue" href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+            <a class="plain-link icons-blue" href="https://github.com"><i class="fa fa-github"></i></a>
+            <a class="plain-link icons-blue" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+            <a class="plain-link icons-blue" href="mailto:loyarabeckham@outlook.com><i class="fa fa-at"></i></a>
+    </p>
+</section>
+
+
+<script src="main.js"></script>
+
+
+<script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
